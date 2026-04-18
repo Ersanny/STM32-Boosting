@@ -1,9 +1,9 @@
 #  C Veri Tipleri, Bellek Yönetimi ve Performans Optimizasyonu
 
-## Değişken Seçimi Neden Önemlidir?
+### Değişken Seçimi Neden Önemlidir?
 - Yüksek seviyeli dillerde (Python vb.) değişken tipleri derleyiciye bırakılır. Ancak STM32 gibi kısıtlı RAM'e (SRAM) sahip ortamlarda değişken tipi; bellek tüketimi ve işlem hızı (execution time) demektir. 1000 elemanlı bir diziyi (array) gereksiz yere int olarak tanımlamak, 8KB yerine 32KB RAM harcamak demektir ve gömülü sistemlerde bu lüksümüz yoktur.
 
-# STM32 (32-Bit ARM) Mimarisinde Veri Boyutları
+## STM32 (32-Bit ARM) Mimarisinde Veri Boyutları
 Keil üzerinde sizeof() operatörü ile yapılan canlı bellek testlerinin sonuçları:
 
 - char: 8-bit (1 byte)
